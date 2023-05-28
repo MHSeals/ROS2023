@@ -15,7 +15,7 @@ import cv2
 
 from roboflow import Roboflow
 
-rf = Roboflow(api_key="5mUiqOEPRJahitzYNodu")
+#API KEY
 project = rf.workspace().project("buoys-4naae")
 model = project.version(6).model
 
